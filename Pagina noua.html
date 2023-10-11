@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="ro" dir="ltr">
+<head>
+  <title>Pagina noua</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <style>
+.etape {
+  float: left;
+  padding: 20px;
+  background-color: pink;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #009932;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  color: blue;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+ }
+li a:hover {
+  background-color: #919191;
+}
+  </style>
+</head>
+  <body>
+    <h1 style="text-align:center; color:blue; border:4px solid red; padding:10px">La lucru!</h1>
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo">kkk</p>
+
+<img class="etape" src="imagini/etapa4.jpg" alt="etapa4" width="250px", height="160px">
+<hr>
+
+<form>
+<input type="button" value="OK">
+</form>
+  </body>
+</html>

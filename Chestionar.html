@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script|Dosis|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Chestionar</title>
+  </head>
+  <body>
+    <img src="imagini/logo.jpg" alt="logo" width="190px">
+    <hr>
+    <div class="meniu">
+    <nav>
+      <ul>
+        <li> <a href="Home.html">Home</a></li>
+        <li> <a href="Productie.html">Productie</a></li>
+        <li><a href="Produse.html">Produse</a></li>
+        <li><a href="Chestionar.html">Chestionar</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+<h1>Împreună îmbunătătim experienta Chocolateria!</h1>
+<form action="ciocolata.php" method="post">
+  <fieldset>
+    <legend>Informatii personale</legend>
+  Numele tau<br>
+    <input type="text" name="name"><br><br>
+  Adresa e-mail<br>
+  <input type="email" name="email" required placeholder="Introdu o adresa de e-mail!"><br>
+</fieldset><br>
+<fieldset>
+<legend>Experienta ta personala cu Chocolateria</legend>
+<textarea rows="5" cols="20">Scrie cateva cuvinte despre experienta ta cu Chocolateria!</textarea><br><br>
+Ai recomanda si altora Chocolateria? <br>
+<input type="radio" name="radio" value="r1">Da <br>
+<input type="radio" name="radio" value="r2">Nu <br><br>
+Care dintre produsele Chocolateria le-ai prefera?<br>
+<input type="checkbox" name="checkbox" value="ch1">Torturi si produse din ciocolata<br>
+<input type="checkbox" name="checkbox" value="ch2">Praline din ciocolata<br>
+<input type="checkbox" name="checkbox" value="ch3">Specialitati din ciocolata<br><br>
+<input class="send "type="submit" value="Trimite">
+</fieldset>
+
+</form>
+</form>
+
+  </body>
+</html>
